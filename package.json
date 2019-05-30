@@ -1,0 +1,46 @@
+{
+  "name": "studyguide",
+  "version": "1.0.0",
+  "description": "Study Guide - The Recource for teachers, students, & institute.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=development jest --watchAll --verbose",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divbySeptember/studyGuide.git"
+  },
+  "keywords": [
+    "Study",
+    "Guide",
+    "Lambda"
+  ],
+  "author": "Anthony Johnson",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/divbySeptember/studyGuide/issues"
+  },
+  "homepage": "https://github.com/divbySeptember/studyGuide#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
